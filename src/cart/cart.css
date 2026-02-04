@@ -1,0 +1,29 @@
+.cart {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 3px;
+}
+.cart span {
+  font-size: x-large;
+}
+.cart ul {
+  background-color: rgb(220, 255, 255);
+  border: 5px solid whitesmoke;
+}
+.cart p {
+  background-color: rgb(220, 255, 255);
+}
+.cart-p {
+  margin-top: 0;
+  padding: 10px;
+}
+.cart-p button {
+  margin-left: 3ch;
+  margin-right: 3ch;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.cart li {
+  border-bottom: 2px solid red;
+}

@@ -1,30 +1,29 @@
-ul {
+.plant-list {
   display: grid;
   border: 5px solid whitesmoke;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: minmax(5ch, auto);
-  max-height: 80%;
-  max-width: 75%;
+  max-height: 100%;
+  max-width: 100%;
   gap: 3px;
   background: ghostwhite;
   padding: 0px;
 }
-li {
-  list-style: none;
+.plant-list li {
   grid-column: span 1;
   text-align: center;
 }
-li:nth-child(odd) {
+.plant-list li:nth-child(odd) {
   background-color: lightgrey; /* Light gray for odd rows */
 }
 
-li:nth-child(even) {
+.plant-list li:nth-child(even) {
   background-color: #ffffff; /* White for even rows */
 }
 figure {
   font-size: 3rem;
 }
-button {
+.plant-button {
   margin-bottom: 1ch;
 }
 h3 {

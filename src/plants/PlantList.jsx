@@ -10,7 +10,7 @@ export default function PlantList({ plants, addToCart }) {
   return (
     <section className="plants">
       <h2>Plants</h2>
-      <ul>
+      <ul className="plant-list">
         {plants.map((plant) => (
           <Plant key={plant.id} plant={plant} addToCart={addToCart}></Plant>
         ))}
