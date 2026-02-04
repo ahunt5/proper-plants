@@ -14,11 +14,11 @@
   text-align: center;
 }
 .plant-list li:nth-child(odd) {
-  background-color: lightgrey; /* Light gray for odd rows */
+  background-color: rgb(198, 248, 237);
 }
 
 .plant-list li:nth-child(even) {
-  background-color: #ffffff; /* White for even rows */
+  background-color: rgb(220, 255, 255); /* White for even rows */
 }
 figure {
   font-size: 3rem;

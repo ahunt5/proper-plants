@@ -11,8 +11,8 @@ export default function CreateCart({ cart, addToCart, removeFromCart }) {
   if (cart.length === 0)
     return (
       <section className="cart">
-        <h2>Cart</h2>
-        <p>Your cart is empty, please add an item.</p>
+        <h2 id="cart">Cart</h2>
+        <p id="empty">Your cart is empty, please add an item.</p>
       </section>
     );
   return (

@@ -3,6 +3,13 @@
   flex-direction: column;
   text-align: center;
   margin-left: 3px;
+  padding-left: 2px;
+}
+/*
+Band-aid styling for cart h2
+*/
+#cart {
+  margin-bottom: 4px;
 }
 .cart span {
   font-size: x-large;
@@ -10,8 +17,11 @@
 .cart ul {
   background-color: rgb(220, 255, 255);
   border: 5px solid whitesmoke;
+  padding: 0;
+  margin: 0;
 }
-.cart p {
+#empty {
+  border: 5px solid whitesmoke;
   background-color: rgb(220, 255, 255);
 }
 .cart-p {
@@ -25,5 +35,8 @@
   padding-left: 10px;
 }
 .cart li {
-  border-bottom: 2px solid red;
+  border-bottom: 5px solid rgb(198, 248, 237);
+}
+.cart-item:last-of-type {
+  border: 0px;
 }
